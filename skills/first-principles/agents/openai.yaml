@@ -1,0 +1,4 @@
+interface:
+  display_name: "第一性原理"
+  short_description: "拆掉默认假前提与经验套路，用第一性原理做分析判断、审视方案、排查难题并看透事物本质"
+  default_prompt: "用 $first-principles 帮我拆掉默认前提，从第一性原理来做这个分析与判断。"
