@@ -72,16 +72,18 @@
 直接把下面这句话发给你的 Codex、Claude Code 或 OpenClaw：
 
 ```text
-帮我安装这个 skill：https://github.com/XuanranC/first-principles-skill/tree/main/skills/first-principles
+帮我安装这个 skill：https://github.com/XuanranC/first-principles-skill
 ```
 
 ### 方式 2：命令行一键安装
 ```bash
+# 通过 skills CLI 安装
 npx skills add XuanranC/first-principles-skill
-```
 
-### 方式 3：手动安装
-下载或克隆本仓库后，将 [`skills/first-principles`](./skills/first-principles) 文件夹放入你所用工具的 Skills 目录即可（例如 `~/.claude/skills/first-principles`、`~/.codex/skills/first-principles`、`~/.gemini/config/skills/first-principles` 或项目内的 `.agents/skills/first-principles`）。
+# 或直接克隆到你的对应目录（以 Claude Code / Codex 为例）
+git clone https://github.com/XuanranC/first-principles-skill.git ~/.claude/skills/first-principles
+git clone https://github.com/XuanranC/first-principles-skill.git ~/.codex/skills/first-principles
+```
 
 ### 日常怎么用？
 - **自动触发**：当你抛出反复试错无果的卡点、纠结的取舍、需要评审的方案或希望看清本质的话题时，AI 会自动启用它；
